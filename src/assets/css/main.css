@@ -848,6 +848,7 @@ h4 {
 }
 .feedback-block img {
   width: 100%;
+  object-fit: contain;
 }
 .feedback-block .button-order {
   position: absolute;
@@ -1263,6 +1264,9 @@ h4 {
   border-radius: 4px;
   transform: translateX(-50%) !important;
   padding: 3rem 6rem 4rem 6rem;
+}
+.status {
+  text-align: center;
 }
 @media (max-width: 1399px) {
   .paints {

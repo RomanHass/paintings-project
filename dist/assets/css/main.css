@@ -848,6 +848,7 @@ h4 {
 }
 .feedback-block img {
   width: 100%;
+  object-fit: contain;
 }
 .feedback-block .button-order {
   position: absolute;
